@@ -23,7 +23,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "AKAN SEGERA BERAKHIR";
+    document.getElementById("demo").innerHTML = "AKAN SEGERA HADIR DISKON SELANJUTNYA";
   }
 }, 1000);
 
