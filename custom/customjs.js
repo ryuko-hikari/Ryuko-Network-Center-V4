@@ -514,11 +514,9 @@ function loader(){
       };
 }());
 
-//alert
-var alertFeedback = "Jangan Lupa Berikan / Feedback Masukan Pada VERSI 4 Ini Ya..";
+//Date
 var tanggal = new Date();
-  alert(alertFeedback);
-  console.log(alertFeedback + tanggal);
+  console.log(tanggal);
 
 // version website
 var versionWebsite = "V.4.1.0";
