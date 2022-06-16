@@ -195,6 +195,9 @@ body{
 	.text-banner, .text-banner-product, .text-banner-news, .text-banner-about{
 		margin-top: -90px;
 	}
+	.text-banner-about{
+		font-size: 40px;
+	}
 }
 @media only screen and (max-width: 768px){
 	.banner, .banner-product, #particles{
@@ -202,6 +205,9 @@ body{
 		height: 500px;
 		background-attachment: scroll;
 		background-position:right;
+	}
+	.text-banner, .text-banner-product, .text-banner-news, .text-banner-about{
+		margin-top: -138px;
 	}
 }
 @media only screen and (max-width: 1024px){
@@ -212,9 +218,9 @@ body{
 		background-position: right;
 		background-size: 80%;
 	}
-	.text-banner, .text-banner-product, .text-banner-news{
-		top: -72%;
-		font-size: 50px;
+	.text-banner, .text-banner-product, .text-banner-news, .text-banner-about{
+		top: -80%;
+		font-size: 40px;
 	}
 }
 /*end header*/
@@ -451,6 +457,9 @@ body{
 	}
 	.product-area{
 		min-height: 2340px;
+	}
+	.text-banner-ctm{
+		font-size: 40px;
 	}
 	.text-ctm-product{
 		text-align: center;
