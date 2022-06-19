@@ -539,6 +539,29 @@ body{
 	transform: scale(1.1);
 	transition: 1s;
 }
+.maps{
+	width: 350px;
+	height: 250px;
+	border: none;
+}
 .text-copyright{
 	font-family: monospace;
+}
+@media only screen and (max-width: 600px){
+	.maps{
+		width: 300px;
+		height: 200px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.maps{
+		min-width: 159px;
+		height: 150px;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.maps{
+		max-width: 250px;
+		height: 150px;
+	}
 }
