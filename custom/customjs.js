@@ -1,5 +1,5 @@
 //countdown time
-var countDownDate = new Date("Jun 2, 2022 23:59:00").getTime();
+var countDownDate = new Date("Jun 23, 2022 23:59:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -23,7 +23,7 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "AKAN SEGERA HADIR DISKON SELANJUTNYA";
+    document.getElementById("demo").innerHTML = "AKAN SEGERA HADIR SELANJUTNYA";
   }
 }, 1000);
 
