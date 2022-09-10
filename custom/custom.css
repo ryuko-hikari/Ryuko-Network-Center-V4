@@ -120,11 +120,10 @@ body{
 	transition: 1s;
 }
 .custom-text-brand:hover{color: #eee; transition: 1s;}
-.banner, #particles{
+.banner{
 	width: 100%;
 	height: 750px;
 	background-image: url('../Assets/home-banner.svg');
-	cursor: pointer;
 	background-size: 50% 100%;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -133,9 +132,9 @@ body{
 	transition: 1s;
 }
 .text-banner{
-	position: relative;
-    left: 0;
-    top: -85%;
+	/*position: relative;*/
+    /*left: 0;*/
+    /*top: -85%;*/
     padding: 0 20px;
     width: 100%;
     color: #FFF;
@@ -189,32 +188,32 @@ body{
     text-shadow: -2px -2px 13px #0A0A0A;
 }
 @media only screen and (max-width: 600px){
-	.banner, .banner-product, #particles{
+	.banner, .banner-product{
 		width: 100%;
 		height: 300px;
 		background-attachment: scroll;
 		background-position: center;
 	}
 	.text-banner, .text-banner-product, .text-banner-news, .text-banner-about{
-		margin-top: -90px;
+		/*margin-top: -90px;*/
 	}
 	.text-banner-about{
 		font-size: 40px;
 	}
 }
 @media only screen and (max-width: 768px){
-	.banner, .banner-product, #particles{
+	.banner, .banner-product{
 		width: 100%;
 		height: 500px;
 		background-attachment: scroll;
 		background-position:right;
 	}
 	.text-banner, .text-banner-product, .text-banner-news, .text-banner-about{
-		margin-top: -138px;
+		/*margin-top: -138px;*/
 	}
 }
 @media only screen and (max-width: 1024px){
-	.banner, .banner-product, #particles{
+	.banner, .banner-product{
 		width: 100%;
 		height: 650px;
 		background-attachment: scroll;
@@ -222,7 +221,7 @@ body{
 		background-size: 80%;
 	}
 	.text-banner, .text-banner-product, .text-banner-news, .text-banner-about{
-		top: -80%;
+		/*top: -80%;*/
 		font-size: 40px;
 	}
 }
